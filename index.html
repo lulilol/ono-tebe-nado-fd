@@ -5,16 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="fonts/fonts.css" />
-    <link rel="stylesheet" href="styles/style.css" />
     <link rel="stylesheet" href="styles/global.css" />
+    <link rel="stylesheet" href="styles/style.css" />
     <title>Оно тебе надо — аукцион вещей, в которые никто не верил</title>
   </head>
   <body>
     <header class="header">
       <nav class="header__menu">
         <ul class="heder__links-list">
-          <li class="header__links-list-item_no-bulit">
-            <a href="#0" class="header__link_active">главная</a>
+          <li class="header__links-list-item_no-bulit header__links-list-item">
+            <a href="#0" class="header__link_active header__link">главная</a>
           </li>
           <li class="header__links-list-item">
             <a href="#0" class="header__link">посмотреть лоты</a>
@@ -50,7 +50,7 @@
           <p class="cover__description-text">
             аукцион вещей, в которые никто не верил
           </p>
-          <a href="#0" class="bet-button">Сделать ставку</a>
+          <button type="button" class="bet-button">Сделать ставку</button>
         </div>
       </section>
       <section class="lots">
@@ -60,9 +60,9 @@
             <a class="card-link" href="#0">
               <article class="card card_type_film">
                 <div class="overlay"></div>
-                <p class="card__title">
+                <h3 class="card__title">
                   Фильм режиссёра, который бросил киношколу
-                </p>
+                </h3>
                 <p class="card__text">
                   Не просто бросил, а ушёл с первой лекции. Какой была бы ваша
                   ставка, если бы вы не знали, что режиссёр — Пол Томас
@@ -75,9 +75,9 @@
             <a class="card-link">
               <article class="card card_type_book">
                 <div class="overlay"></div>
-                <p class="card__title">
+                <h3 class="card__title">
                   Книга, где описан один скучный день из жизни рекламного агента
-                </p>
+                </h3>
                 <p class="card__text">
                   Объёмом почти в тысячу страниц. Иногда без знаков препинания и
                   с переходами на древнеанглийский. В ней одновременно
@@ -93,9 +93,9 @@
             <a class="card-link">
               <article class="card card_type_picture">
                 <div class="overlay"></div>
-                <p class="card__title">
+                <h3 class="card__title">
                   Картина, которую повторит даже 5-летний сын маминой подруги
-                </p>
+                </h3>
                 <p class="card__text">
                   Ну действительно, там линия, тут кружочек, а здесь и вовсе
                   что-то похожее на инфузорию-туфельку. Никаких полей, лесов,
@@ -119,7 +119,7 @@
           </div>
         </div>
         <div class="about__column">
-          <h3 class="about__title">Об аукционе</h3>
+          <h4 class="about__title">Об аукционе</h4>
           <div class="about__text">
             <p>
               Здесь вы не встретите очередное пафосное собрание невероятно
@@ -150,7 +150,7 @@
       <nav class="footer__menu">
         <ul class="footer__menu-list">
           <li class="footer__menu-list-item">
-            <a class="footer__menu-link_active"> главная </a>
+            <a class="footer__menu-link_active footer__menu-link"> главная </a>
           </li>
           <li class="footer__menu-list-item">
             <a class="footer__menu-link"> посмотреть лоты </a>
